@@ -1,1 +1,61 @@
+.img-thumbnail{
+	border: none;
+	width: 70%;
+	max-width: 450px;
+}
 
+p.lead{
+	font-style: : italic;
+}
+
+#content{
+	padding-top: 25%;
+}
+
+/*body{
+	background-color: red;
+}*/
+
+.navbar {
+	background-color: rgba(32, 112, 59, 1);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:focus,
+.span .navbar-toggler-icon,
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus{
+	color: #ffffff;
+
+	/*text-shadow: h-shadow v-shadow blur-radius */
+	text-shadow: 1px 1px 3px;
+}
+
+.button:hover,
+.button:focus{
+	box-shadow: 1px 1px 3px;
+}
+
+
+.navbar-light .navbar-toggler{
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-light .navbar-toggler-icon{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa-bars{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.container{
+	background-image: app_background.jpeg;
+
+}
